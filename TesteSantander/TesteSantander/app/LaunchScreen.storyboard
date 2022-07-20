@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="07s-aW-uaC">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="bhR-Jf-ywp">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="07s-aW-uaC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="neF-d0-AR6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo" translatesAutoresizingMaskIntoConstraints="NO" id="BFU-wI-u9e">
+                                <rect key="frame" x="130.5" y="276.5" width="114" height="114"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xIL-oe-S1x"/>
+                        <color key="backgroundColor" red="0.82203149799999997" green="0.70662289860000005" blue="0.60381257529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BFU-wI-u9e" firstAttribute="centerX" secondItem="neF-d0-AR6" secondAttribute="centerX" id="8gq-rt-JO8"/>
+                            <constraint firstItem="BFU-wI-u9e" firstAttribute="centerY" secondItem="neF-d0-AR6" secondAttribute="centerY" id="9rk-01-V71"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="unr-N3-f9O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G3c-wP-1bu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="312.80000000000001" y="357.57121439280365"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_logo" width="114" height="114"/>
+    </resources>
+</document>

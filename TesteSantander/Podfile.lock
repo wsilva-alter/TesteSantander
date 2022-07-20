@@ -1,0 +1,20 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - SwiftKeychainWrapper (4.0.1)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 1.2.0)
+  - SwiftKeychainWrapper
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - SwiftKeychainWrapper
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+
+PODFILE CHECKSUM: 4d3180903154ff85d6c6bfaf5b05ee8e2416985d
+
+COCOAPODS: 1.11.3

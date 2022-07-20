@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="FooterOCs" id="iN0-l3-epB" customClass="FooterOCs" customModule="AppSintese" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NEk-E7-nbS">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total: R$ 2.700,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="5UZ-Cv-Tqq">
+                            <rect key="frame" x="8" y="10" width="398" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="mp5-IX-qje"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" name="navigationColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRD-KS-MoZ" customClass="ButtonStyle" customModule="AppSintese" customModuleProvider="target">
+                            <rect key="frame" x="226" y="40" width="180" height="48"/>
+                            <color key="backgroundColor" name="buttonReject"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="WOb-Fz-rt9"/>
+                                <constraint firstAttribute="width" constant="180" id="v6m-i3-rpr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="REJEITAR">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="rejeitar:" destination="iN0-l3-epB" eventType="touchUpInside" id="E3j-ch-d2i"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qf-P0-wm0" customClass="ButtonStyle" customModule="AppSintese" customModuleProvider="target">
+                            <rect key="frame" x="8" y="40" width="193" height="48"/>
+                            <color key="backgroundColor" name="buttonApproved"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="7Y3-lt-GE0"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="APROVAR">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="aprovar:" destination="iN0-l3-epB" eventType="touchUpInside" id="QnZ-CA-hXP"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="7qf-P0-wm0" firstAttribute="leading" secondItem="NEk-E7-nbS" secondAttribute="leading" constant="8" id="JaU-8f-VmX"/>
+                        <constraint firstItem="5UZ-Cv-Tqq" firstAttribute="top" secondItem="NEk-E7-nbS" secondAttribute="top" constant="10" id="Q8y-Bi-Bog"/>
+                        <constraint firstAttribute="trailing" secondItem="5UZ-Cv-Tqq" secondAttribute="trailing" constant="8" id="RSD-If-TBZ"/>
+                        <constraint firstAttribute="bottom" secondItem="7qf-P0-wm0" secondAttribute="bottom" constant="12" id="XTh-Ov-54U"/>
+                        <constraint firstItem="5UZ-Cv-Tqq" firstAttribute="leading" secondItem="NEk-E7-nbS" secondAttribute="leading" constant="8" id="bfB-cS-SVj"/>
+                        <constraint firstItem="oRD-KS-MoZ" firstAttribute="baseline" secondItem="7qf-P0-wm0" secondAttribute="baseline" id="vPW-Ni-1RB"/>
+                        <constraint firstItem="oRD-KS-MoZ" firstAttribute="leading" secondItem="7qf-P0-wm0" secondAttribute="trailing" constant="25" id="xHg-Jc-yZQ"/>
+                        <constraint firstItem="oRD-KS-MoZ" firstAttribute="trailing" secondItem="5UZ-Cv-Tqq" secondAttribute="trailing" id="zUS-xc-rev"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="NEk-E7-nbS" secondAttribute="bottom" id="9te-ie-X28"/>
+                <constraint firstItem="NEk-E7-nbS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="P0s-DR-pza"/>
+                <constraint firstItem="NEk-E7-nbS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZZ0-FZ-F9X"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NEk-E7-nbS" secondAttribute="trailing" id="r9n-Cg-9Du"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnAprovar" destination="7qf-P0-wm0" id="JJ9-qk-lxh"/>
+                <outlet property="btnRejeitar" destination="oRD-KS-MoZ" id="hCu-sn-VJV"/>
+                <outlet property="lbTotal" destination="5UZ-Cv-Tqq" id="v8p-jg-Evs"/>
+                <outlet property="viewMain" destination="NEk-E7-nbS" id="7Au-oA-u9a"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="153.34821428571428"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="7qf-P0-wm0">
+            <size key="intrinsicContentSize" width="73" height="30"/>
+        </designable>
+        <designable name="oRD-KS-MoZ">
+            <size key="intrinsicContentSize" width="72" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="buttonApproved">
+            <color red="0.031372549019607843" green="0.40784313725490196" blue="0.047058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="buttonReject">
+            <color red="0.63921568627450975" green="0.011764705882352941" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="navigationColor">
+            <color red="0.36470588235294116" green="0.5725490196078431" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
