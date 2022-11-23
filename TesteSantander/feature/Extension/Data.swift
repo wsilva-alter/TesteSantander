@@ -29,17 +29,12 @@ extension Data {
     func decodableData<T: Decodable>() -> T? {
         
         do {
-            let teste = try? self.newJSONDecoder().decode(T.self, from: self)
+            _ = try? self.newJSONDecoder().decode(T.self, from: self)
             return try? self.newJSONDecoder().decode(T.self, from: self)
         }
         catch {
-            
-            print(error)
-            
             return nil
         }
-        
-        
         
         return try? self.newJSONDecoder().decode(T.self, from: self)
     }

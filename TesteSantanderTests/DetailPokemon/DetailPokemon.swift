@@ -8,6 +8,6 @@
 
 import XCTest
 
-class ListPokemon: XCTestCase {
+class DetailPokemon: XCTestCase {
 
 }

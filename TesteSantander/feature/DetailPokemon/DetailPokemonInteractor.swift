@@ -8,11 +8,11 @@
 
 import Foundation
 
-protocol DetailPokemonInteractorInput: class {
+protocol DetailPokemonInteractorInput: AnyObject {
     func loadDetailPokemon(id: Int)
 }
 
-protocol DetailPokemonInteractorOutput: class {
+protocol DetailPokemonInteractorOutput: AnyObject {
     func fetchDetailPokemon(detail: DetailPokemon)
     func failure(error: String)
 }

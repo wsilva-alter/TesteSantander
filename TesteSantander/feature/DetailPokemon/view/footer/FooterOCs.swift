@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol FooterOCsDelegate: class {
+protocol FooterOCsDelegate: AnyObject {
     func didSelectedApproov()
     func didSelectedReject()
 }

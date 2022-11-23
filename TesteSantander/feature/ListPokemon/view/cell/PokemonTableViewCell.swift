@@ -9,7 +9,7 @@
 import UIKit
 import Kingfisher
 
-protocol PokemonTableViewCellDelegate: class {
+protocol PokemonTableViewCellDelegate: AnyObject {
     
 }
 
