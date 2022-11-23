@@ -9,11 +9,11 @@
 import Foundation
 import LocalAuthentication
 
-protocol ListPokemonPresenterInterface: class {
+protocol ListPokemonPresenterInterface: AnyObject {
     func loadListPokemon(limit: Int, offset: Int)
 }
 
-protocol ListPokemonPresenterViewInterface: class {
+protocol ListPokemonPresenterViewInterface: AnyObject {
     func fetchListPokemon(list: [Pokemon])
     func failure(msg: String)
 }

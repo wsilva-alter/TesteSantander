@@ -8,11 +8,11 @@
 
 import Foundation
 
-protocol ListPokemonInteractorInput: class {
+protocol ListPokemonInteractorInput: AnyObject {
    func loadListPokemon(limit: Int, offset: Int)
 }
 
-protocol ListPokemonInteractorOutput: class {
+protocol ListPokemonInteractorOutput: AnyObject {
     func fetchListPokemon(list: [Pokemon])
     func failure(error: String)
 }

@@ -77,7 +77,7 @@ extension DetailPokemonViewController: DetailPokemonPresenterViewInterface {
 extension DetailPokemonViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if let detail = _detailPokemon{
+        if let _ = _detailPokemon{
             return 1
         }
         return 0

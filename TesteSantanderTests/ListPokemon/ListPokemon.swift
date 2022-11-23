@@ -9,5 +9,16 @@
 import XCTest
 
 class ListPokemon: XCTestCase {
-
+    override func setUp() async throws {
+        
+    }
+    func testMethod1() throws {
+            // This is an example test method.
+            
+            addTeardownBlock {
+                // Called when testMethod1() ends.
+                
+            }
+        }
+        
 }
