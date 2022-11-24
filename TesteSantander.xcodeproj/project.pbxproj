@@ -12,12 +12,18 @@
 		69586DA624B695CF007DFF2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69586DA524B695CF007DFF2E /* SceneDelegate.swift */; };
 		6981D12C24AAC5B2001B93B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6981D12B24AAC5B2001B93B2 /* AppDelegate.swift */; };
 		6981D13524AAC5B4001B93B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6981D13424AAC5B4001B93B2 /* Assets.xcassets */; };
-		6981D14E24AAC5B4001B93B2 /* TesteSantanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6981D14D24AAC5B4001B93B2 /* TesteSantanderUITests.swift */; };
 		69827AAB24B54EE400CEBEFE /* ListPokemonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69827AAA24B54EE400CEBEFE /* ListPokemonViewController.storyboard */; };
 		6982E88924B8B74000436D62 /* ConstantsServe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6982E88824B8B74000436D62 /* ConstantsServe.swift */; };
 		6982E88F24B8D12D00436D62 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6982E88E24B8D12D00436D62 /* Alamofire */; };
-		B6132C89288768E900D4887F /* ListPokemonFakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6132C88288768E900D4887F /* ListPokemonFakeData.swift */; };
-		B6132C8B2887A50400D4887F /* ListPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6132C8A2887A50400D4887F /* ListPokemon.swift */; };
+		9F033FBE292ECA3400B3EA47 /* Pods_TesteSantander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F033FBD292ECA3400B3EA47 /* Pods_TesteSantander.framework */; };
+		9F033FC6292ED07D00B3EA47 /* ListPokemonPresenteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F033FC5292ED07D00B3EA47 /* ListPokemonPresenteTests.swift */; };
+		9F033FD4292ED83D00B3EA47 /* Pods_TesteSantander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F033FD3292ED83D00B3EA47 /* Pods_TesteSantander.framework */; };
+		9F033FD7292ED99200B3EA47 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F033FBB292EC9CB00B3EA47 /* XCTest.framework */; };
+		9F033FDC292EEC3B00B3EA47 /* ListPokemonInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F033FDB292EEC3B00B3EA47 /* ListPokemonInteractorMock.swift */; };
+		9F033FDE292F0ED300B3EA47 /* ListPokemonPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F033FDD292F0ED300B3EA47 /* ListPokemonPresenterMock.swift */; };
+		9F033FE1292F1B5A00B3EA47 /* DetailPokemonPresenteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F033FE0292F1B5A00B3EA47 /* DetailPokemonPresenteTests.swift */; };
+		9F033FE3292F1C1A00B3EA47 /* DetailPokemonPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F033FE2292F1C1A00B3EA47 /* DetailPokemonPresenterMock.swift */; };
+		9F033FE5292F1D0700B3EA47 /* DetailPokemonInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F033FE4292F1D0700B3EA47 /* DetailPokemonInteractorMock.swift */; };
 		B65BDB0328866116001A0F15 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B65BDB0228866116001A0F15 /* Kingfisher */; };
 		B65BDB322886EA44001A0F15 /* DetailPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65BDB312886DBC5001A0F15 /* DetailPokemon.swift */; };
 		B65BDB3428873125001A0F15 /* Abilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65BDB3328873125001A0F15 /* Abilities.swift */; };
@@ -59,33 +65,24 @@
 		C4E8E9CB24BDE2B100C34256 /* DetailPokemonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E8E9CA24BDE2B100C34256 /* DetailPokemonViewController.storyboard */; };
 		C4F78A5F257E6D8E0031221F /* ConfigurationEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F78A5E257E6D8E0031221F /* ConfigurationEnviroment.swift */; };
 		C4FF16FA25525C720017D486 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FF16F925525C720017D486 /* UIImageView.swift */; };
-		F3682EDB97FF1FD76735D589 /* Pods_TesteSantander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168DABD020511CC530BBB7F1 /* Pods_TesteSantander.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6981D13F24AAC5B4001B93B2 /* PBXContainerItemProxy */ = {
+		9F033FC7292ED07D00B3EA47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6981D12024AAC5B2001B93B2 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6981D12724AAC5B2001B93B2;
-			remoteInfo = AppSintese;
-		};
-		6981D14A24AAC5B4001B93B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6981D12024AAC5B2001B93B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6981D12724AAC5B2001B93B2;
-			remoteInfo = AppSintese;
+			remoteInfo = TesteSantander;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1146D04A070F9FD1DB1BD217 /* Pods-TesteSantander.homolog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteSantander.homolog.xcconfig"; path = "Target Support Files/Pods-TesteSantander/Pods-TesteSantander.homolog.xcconfig"; sourceTree = "<group>"; };
-		168DABD020511CC530BBB7F1 /* Pods_TesteSantander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteSantander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1C579524AD6BF300C60D82 /* ListPokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemonViewController.swift; sourceTree = "<group>"; };
 		1E1C579A24AD6F6200C60D82 /* String+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Configuration.swift"; sourceTree = "<group>"; };
-		21C3ABF4D7BC1D7C62927D1D /* Pods-AppSintese.homolog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppSintese.homolog.xcconfig"; path = "Target Support Files/Pods-AppSintese/Pods-AppSintese.homolog.xcconfig"; sourceTree = "<group>"; };
-		58109C677CDF1A54DCF1D3E7 /* Pods-AppSintese.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppSintese.release.xcconfig"; path = "Target Support Files/Pods-AppSintese/Pods-AppSintese.release.xcconfig"; sourceTree = "<group>"; };
+		289729CEC918292491E51D0B /* Pods_TesteSantander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteSantander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8A123480F3DB7CADB258FC /* Pods-TesteSantander.homolog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteSantander.homolog.xcconfig"; path = "Target Support Files/Pods-TesteSantander/Pods-TesteSantander.homolog.xcconfig"; sourceTree = "<group>"; };
+		2BC540D7BBA45F79F5ED2608 /* Pods-TesteSantander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteSantander.debug.xcconfig"; path = "Target Support Files/Pods-TesteSantander/Pods-TesteSantander.debug.xcconfig"; sourceTree = "<group>"; };
 		690E7D5F24B5DC3E00151F6A /* DetailPokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemonViewController.swift; sourceTree = "<group>"; };
 		69586DA524B695CF007DFF2E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		69586DA924B6962F007DFF2E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,17 +90,23 @@
 		6981D12B24AAC5B2001B93B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6981D13424AAC5B4001B93B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6981D13924AAC5B4001B93B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6981D13E24AAC5B4001B93B2 /* TesteSantanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteSantanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6981D14424AAC5B4001B93B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6981D14924AAC5B4001B93B2 /* TesteSantanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteSantanderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6981D14D24AAC5B4001B93B2 /* TesteSantanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteSantanderUITests.swift; sourceTree = "<group>"; };
-		6981D14F24AAC5B4001B93B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69827AAA24B54EE400CEBEFE /* ListPokemonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListPokemonViewController.storyboard; sourceTree = "<group>"; };
 		6982E88824B8B74000436D62 /* ConstantsServe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsServe.swift; sourceTree = "<group>"; };
-		7BF062C017DEDBE1C9CFDD05 /* Pods-AppSintese.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppSintese.debug.xcconfig"; path = "Target Support Files/Pods-AppSintese/Pods-AppSintese.debug.xcconfig"; sourceTree = "<group>"; };
-		B6132C88288768E900D4887F /* ListPokemonFakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemonFakeData.swift; sourceTree = "<group>"; };
-		B6132C8A2887A50400D4887F /* ListPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemon.swift; sourceTree = "<group>"; };
-		B6132C8D2887AB9800D4887F /* DetailPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemon.swift; sourceTree = "<group>"; };
+		9F033FB9292EC9BA00B3EA47 /* Pods_TesteSantander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_TesteSantander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F033FBB292EC9CB00B3EA47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9F033FBD292ECA3400B3EA47 /* Pods_TesteSantander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_TesteSantander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F033FC3292ED07D00B3EA47 /* PokemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F033FC5292ED07D00B3EA47 /* ListPokemonPresenteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemonPresenteTests.swift; sourceTree = "<group>"; };
+		9F033FCD292ED16C00B3EA47 /* Pods_TesteSantander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_TesteSantander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F033FD1292ED83D00B3EA47 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F033FD3292ED83D00B3EA47 /* Pods_TesteSantander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_TesteSantander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F033FD5292ED83D00B3EA47 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftKeychainWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F033FDB292EEC3B00B3EA47 /* ListPokemonInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemonInteractorMock.swift; sourceTree = "<group>"; };
+		9F033FDD292F0ED300B3EA47 /* ListPokemonPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemonPresenterMock.swift; sourceTree = "<group>"; };
+		9F033FE0292F1B5A00B3EA47 /* DetailPokemonPresenteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemonPresenteTests.swift; sourceTree = "<group>"; };
+		9F033FE2292F1C1A00B3EA47 /* DetailPokemonPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemonPresenterMock.swift; sourceTree = "<group>"; };
+		9F033FE4292F1D0700B3EA47 /* DetailPokemonInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemonInteractorMock.swift; sourceTree = "<group>"; };
+		A6B4C0E8D03840BA7FA6BE3E /* Pods-TesteSantander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteSantander.release.xcconfig"; path = "Target Support Files/Pods-TesteSantander/Pods-TesteSantander.release.xcconfig"; sourceTree = "<group>"; };
 		B65BDB312886DBC5001A0F15 /* DetailPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemon.swift; sourceTree = "<group>"; };
 		B65BDB3328873125001A0F15 /* Abilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abilities.swift; sourceTree = "<group>"; };
 		B65BDB352887321F001A0F15 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
@@ -142,8 +145,6 @@
 		C4E8E9CA24BDE2B100C34256 /* DetailPokemonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailPokemonViewController.storyboard; sourceTree = "<group>"; };
 		C4F78A5E257E6D8E0031221F /* ConfigurationEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationEnviroment.swift; sourceTree = "<group>"; };
 		C4FF16F925525C720017D486 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
-		C88C290FF4E6323DF35916E0 /* Pods-TesteSantander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteSantander.release.xcconfig"; path = "Target Support Files/Pods-TesteSantander/Pods-TesteSantander.release.xcconfig"; sourceTree = "<group>"; };
-		D938F0034A87F78DC2685DED /* Pods-TesteSantander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteSantander.debug.xcconfig"; path = "Target Support Files/Pods-TesteSantander/Pods-TesteSantander.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,23 +152,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F033FD7292ED99200B3EA47 /* XCTest.framework in Frameworks */,
+				9F033FBE292ECA3400B3EA47 /* Pods_TesteSantander.framework in Frameworks */,
 				B65BDB0328866116001A0F15 /* Kingfisher in Frameworks */,
 				6982E88F24B8D12D00436D62 /* Alamofire in Frameworks */,
-				F3682EDB97FF1FD76735D589 /* Pods_TesteSantander.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6981D13B24AAC5B4001B93B2 /* Frameworks */ = {
+		9F033FC0292ED07D00B3EA47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6981D14624AAC5B4001B93B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9F033FD4292ED83D00B3EA47 /* Pods_TesteSantander.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,11 +227,10 @@
 			isa = PBXGroup;
 			children = (
 				6981D12A24AAC5B2001B93B2 /* TesteSantander */,
-				6981D14124AAC5B4001B93B2 /* TesteSantanderTests */,
-				6981D14C24AAC5B4001B93B2 /* TesteSantanderUITests */,
+				9F033FC4292ED07D00B3EA47 /* PokemonTests */,
 				6981D12924AAC5B2001B93B2 /* Products */,
 				B3499BDDF268CC6F4053DF65 /* Pods */,
-				AB59BD78FF87B42F0F7A994A /* Frameworks */,
+				91A20C7A64CDFCC01BD9FA7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,8 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				6981D12824AAC5B2001B93B2 /* TesteSantander.app */,
-				6981D13E24AAC5B4001B93B2 /* TesteSantanderTests.xctest */,
-				6981D14924AAC5B4001B93B2 /* TesteSantanderUITests.xctest */,
+				9F033FC3292ED07D00B3EA47 /* PokemonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -258,25 +252,6 @@
 				6981D15C24AAC5F4001B93B2 /* app */,
 			);
 			path = TesteSantander;
-			sourceTree = "<group>";
-		};
-		6981D14124AAC5B4001B93B2 /* TesteSantanderTests */ = {
-			isa = PBXGroup;
-			children = (
-				B6132C8C2887AA4200D4887F /* DetailPokemon */,
-				B6132C862887685400D4887F /* ListPokemon */,
-				6981D14424AAC5B4001B93B2 /* Info.plist */,
-			);
-			path = TesteSantanderTests;
-			sourceTree = "<group>";
-		};
-		6981D14C24AAC5B4001B93B2 /* TesteSantanderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6981D14D24AAC5B4001B93B2 /* TesteSantanderUITests.swift */,
-				6981D14F24AAC5B4001B93B2 /* Info.plist */,
-			);
-			path = TesteSantanderUITests;
 			sourceTree = "<group>";
 		};
 		6981D15C24AAC5F4001B93B2 /* app */ = {
@@ -349,50 +324,58 @@
 			path = model;
 			sourceTree = "<group>";
 		};
-		AB59BD78FF87B42F0F7A994A /* Frameworks */ = {
+		91A20C7A64CDFCC01BD9FA7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				168DABD020511CC530BBB7F1 /* Pods_TesteSantander.framework */,
+				9F033FD1292ED83D00B3EA47 /* MBProgressHUD.framework */,
+				9F033FD3292ED83D00B3EA47 /* Pods_TesteSantander.framework */,
+				9F033FD5292ED83D00B3EA47 /* SwiftKeychainWrapper.framework */,
+				9F033FCD292ED16C00B3EA47 /* Pods_TesteSantander.framework */,
+				9F033FBD292ECA3400B3EA47 /* Pods_TesteSantander.framework */,
+				9F033FBB292EC9CB00B3EA47 /* XCTest.framework */,
+				9F033FB9292EC9BA00B3EA47 /* Pods_TesteSantander.framework */,
+				289729CEC918292491E51D0B /* Pods_TesteSantander.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F033FC4292ED07D00B3EA47 /* PokemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F033FDF292F1A9200B3EA47 /* detailPokemon */,
+				9F033FD9292EDD3400B3EA47 /* listPokemon */,
+			);
+			path = PokemonTests;
+			sourceTree = "<group>";
+		};
+		9F033FD9292EDD3400B3EA47 /* listPokemon */ = {
+			isa = PBXGroup;
+			children = (
+				9F033FDB292EEC3B00B3EA47 /* ListPokemonInteractorMock.swift */,
+				9F033FDD292F0ED300B3EA47 /* ListPokemonPresenterMock.swift */,
+				9F033FC5292ED07D00B3EA47 /* ListPokemonPresenteTests.swift */,
+			);
+			path = listPokemon;
+			sourceTree = "<group>";
+		};
+		9F033FDF292F1A9200B3EA47 /* detailPokemon */ = {
+			isa = PBXGroup;
+			children = (
+				9F033FE2292F1C1A00B3EA47 /* DetailPokemonPresenterMock.swift */,
+				9F033FE4292F1D0700B3EA47 /* DetailPokemonInteractorMock.swift */,
+				9F033FE0292F1B5A00B3EA47 /* DetailPokemonPresenteTests.swift */,
+			);
+			path = detailPokemon;
 			sourceTree = "<group>";
 		};
 		B3499BDDF268CC6F4053DF65 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7BF062C017DEDBE1C9CFDD05 /* Pods-AppSintese.debug.xcconfig */,
-				58109C677CDF1A54DCF1D3E7 /* Pods-AppSintese.release.xcconfig */,
-				21C3ABF4D7BC1D7C62927D1D /* Pods-AppSintese.homolog.xcconfig */,
-				D938F0034A87F78DC2685DED /* Pods-TesteSantander.debug.xcconfig */,
-				1146D04A070F9FD1DB1BD217 /* Pods-TesteSantander.homolog.xcconfig */,
-				C88C290FF4E6323DF35916E0 /* Pods-TesteSantander.release.xcconfig */,
+				2BC540D7BBA45F79F5ED2608 /* Pods-TesteSantander.debug.xcconfig */,
+				2A8A123480F3DB7CADB258FC /* Pods-TesteSantander.homolog.xcconfig */,
+				A6B4C0E8D03840BA7FA6BE3E /* Pods-TesteSantander.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		B6132C862887685400D4887F /* ListPokemon */ = {
-			isa = PBXGroup;
-			children = (
-				B6132C87288768A900D4887F /* FakeData */,
-				B6132C8A2887A50400D4887F /* ListPokemon.swift */,
-			);
-			path = ListPokemon;
-			sourceTree = "<group>";
-		};
-		B6132C87288768A900D4887F /* FakeData */ = {
-			isa = PBXGroup;
-			children = (
-				B6132C88288768E900D4887F /* ListPokemonFakeData.swift */,
-			);
-			path = FakeData;
-			sourceTree = "<group>";
-		};
-		B6132C8C2887AA4200D4887F /* DetailPokemon */ = {
-			isa = PBXGroup;
-			children = (
-				B6132C8D2887AB9800D4887F /* DetailPokemon.swift */,
-			);
-			path = DetailPokemon;
 			sourceTree = "<group>";
 		};
 		B6D4D5FE2886405000860DAB /* cell */ = {
@@ -443,11 +426,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6981D15224AAC5B4001B93B2 /* Build configuration list for PBXNativeTarget "TesteSantander" */;
 			buildPhases = (
-				A39777EAF493CABEF63B7839 /* [CP] Check Pods Manifest.lock */,
+				5F7581D8607E021017A9AE83 /* [CP] Check Pods Manifest.lock */,
 				6981D12424AAC5B2001B93B2 /* Sources */,
 				6981D12524AAC5B2001B93B2 /* Frameworks */,
 				6981D12624AAC5B2001B93B2 /* Resources */,
-				4807475D2AE2D2903978EC1B /* [CP] Embed Pods Frameworks */,
+				40CB750F6694D2C261C10620 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -462,41 +445,23 @@
 			productReference = 6981D12824AAC5B2001B93B2 /* TesteSantander.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6981D13D24AAC5B4001B93B2 /* TesteSantanderTests */ = {
+		9F033FC2292ED07D00B3EA47 /* PokemonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6981D15524AAC5B4001B93B2 /* Build configuration list for PBXNativeTarget "TesteSantanderTests" */;
+			buildConfigurationList = 9F033FC9292ED07D00B3EA47 /* Build configuration list for PBXNativeTarget "PokemonTests" */;
 			buildPhases = (
-				6981D13A24AAC5B4001B93B2 /* Sources */,
-				6981D13B24AAC5B4001B93B2 /* Frameworks */,
-				6981D13C24AAC5B4001B93B2 /* Resources */,
+				9F033FBF292ED07D00B3EA47 /* Sources */,
+				9F033FC0292ED07D00B3EA47 /* Frameworks */,
+				9F033FC1292ED07D00B3EA47 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6981D14024AAC5B4001B93B2 /* PBXTargetDependency */,
+				9F033FC8292ED07D00B3EA47 /* PBXTargetDependency */,
 			);
-			name = TesteSantanderTests;
-			productName = AppSinteseTests;
-			productReference = 6981D13E24AAC5B4001B93B2 /* TesteSantanderTests.xctest */;
+			name = PokemonTests;
+			productName = PokemonTests;
+			productReference = 9F033FC3292ED07D00B3EA47 /* PokemonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6981D14824AAC5B4001B93B2 /* TesteSantanderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6981D15824AAC5B4001B93B2 /* Build configuration list for PBXNativeTarget "TesteSantanderUITests" */;
-			buildPhases = (
-				6981D14524AAC5B4001B93B2 /* Sources */,
-				6981D14624AAC5B4001B93B2 /* Frameworks */,
-				6981D14724AAC5B4001B93B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6981D14B24AAC5B4001B93B2 /* PBXTargetDependency */,
-			);
-			name = TesteSantanderUITests;
-			productName = AppSinteseUITests;
-			productReference = 6981D14924AAC5B4001B93B2 /* TesteSantanderUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -504,19 +469,15 @@
 		6981D12024AAC5B2001B93B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "Wildson Silva";
 				TargetAttributes = {
 					6981D12724AAC5B2001B93B2 = {
 						CreatedOnToolsVersion = 11.5;
 					};
-					6981D13D24AAC5B4001B93B2 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 6981D12724AAC5B2001B93B2;
-					};
-					6981D14824AAC5B4001B93B2 = {
-						CreatedOnToolsVersion = 11.5;
+					9F033FC2292ED07D00B3EA47 = {
+						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 6981D12724AAC5B2001B93B2;
 					};
 				};
@@ -539,8 +500,7 @@
 			projectRoot = "";
 			targets = (
 				6981D12724AAC5B2001B93B2 /* TesteSantander */,
-				6981D13D24AAC5B4001B93B2 /* TesteSantanderTests */,
-				6981D14824AAC5B4001B93B2 /* TesteSantanderUITests */,
+				9F033FC2292ED07D00B3EA47 /* PokemonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -560,14 +520,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6981D13C24AAC5B4001B93B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6981D14724AAC5B4001B93B2 /* Resources */ = {
+		9F033FC1292ED07D00B3EA47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -577,7 +530,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4807475D2AE2D2903978EC1B /* [CP] Embed Pods Frameworks */ = {
+		40CB750F6694D2C261C10620 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -594,7 +547,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TesteSantander/Pods-TesteSantander-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A39777EAF493CABEF63B7839 /* [CP] Check Pods Manifest.lock */ = {
+		5F7581D8607E021017A9AE83 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -666,35 +619,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6981D13A24AAC5B4001B93B2 /* Sources */ = {
+		9F033FBF292ED07D00B3EA47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6132C89288768E900D4887F /* ListPokemonFakeData.swift in Sources */,
-				B6132C8B2887A50400D4887F /* ListPokemon.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6981D14524AAC5B4001B93B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6981D14E24AAC5B4001B93B2 /* TesteSantanderUITests.swift in Sources */,
+				9F033FE3292F1C1A00B3EA47 /* DetailPokemonPresenterMock.swift in Sources */,
+				9F033FE5292F1D0700B3EA47 /* DetailPokemonInteractorMock.swift in Sources */,
+				9F033FE1292F1B5A00B3EA47 /* DetailPokemonPresenteTests.swift in Sources */,
+				9F033FC6292ED07D00B3EA47 /* ListPokemonPresenteTests.swift in Sources */,
+				9F033FDC292EEC3B00B3EA47 /* ListPokemonInteractorMock.swift in Sources */,
+				9F033FDE292F0ED300B3EA47 /* ListPokemonPresenterMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6981D14024AAC5B4001B93B2 /* PBXTargetDependency */ = {
+		9F033FC8292ED07D00B3EA47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6981D12724AAC5B2001B93B2 /* TesteSantander */;
-			targetProxy = 6981D13F24AAC5B4001B93B2 /* PBXContainerItemProxy */;
-		};
-		6981D14B24AAC5B4001B93B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6981D12724AAC5B2001B93B2 /* TesteSantander */;
-			targetProxy = 6981D14A24AAC5B4001B93B2 /* PBXContainerItemProxy */;
+			targetProxy = 9F033FC7292ED07D00B3EA47 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -734,6 +678,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -795,6 +740,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -817,13 +763,15 @@
 		};
 		6981D15324AAC5B4001B93B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D938F0034A87F78DC2685DED /* Pods-TesteSantander.debug.xcconfig */;
+			baseConfigurationReference = 2BC540D7BBA45F79F5ED2608 /* Pods-TesteSantander.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = SU94P4N9WH;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/TesteSantander/resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -841,13 +789,15 @@
 		};
 		6981D15424AAC5B4001B93B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C88C290FF4E6323DF35916E0 /* Pods-TesteSantander.release.xcconfig */;
+			baseConfigurationReference = A6B4C0E8D03840BA7FA6BE3E /* Pods-TesteSantander.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = SU94P4N9WH;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/TesteSantander/resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -863,89 +813,66 @@
 			};
 			name = Release;
 		};
-		6981D15624AAC5B4001B93B2 /* Debug */ = {
+		9F033FCA292ED07D00B3EA47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SU94P4N9WH;
-				INFOPLIST_FILE = TesteSantanderTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.testesantander.ios.TesteSantanderTests;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.testesantander.PokemonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteSantander.app/TesteSantander";
 			};
 			name = Debug;
 		};
-		6981D15724AAC5B4001B93B2 /* Release */ = {
+		9F033FCB292ED07D00B3EA47 /* Homolog */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SU94P4N9WH;
-				INFOPLIST_FILE = TesteSantanderTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.testesantander.ios.TesteSantanderTests;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.testesantander.PokemonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteSantander.app/TesteSantander";
 			};
-			name = Release;
+			name = Homolog;
 		};
-		6981D15924AAC5B4001B93B2 /* Debug */ = {
+		9F033FCC292ED07D00B3EA47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LK7384CTQ5;
-				INFOPLIST_FILE = TesteSantanderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.testesantander.ios.TesteSantanderUITests;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SU94P4N9WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.testesantander.PokemonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TesteSantander;
-			};
-			name = Debug;
-		};
-		6981D15A24AAC5B4001B93B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LK7384CTQ5;
-				INFOPLIST_FILE = TesteSantanderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.testesantander.ios.TesteSantanderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TesteSantander;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteSantander.app/TesteSantander";
 			};
 			name = Release;
 		};
@@ -984,6 +911,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1012,13 +940,15 @@
 		};
 		C4F78A64257E6E2F0031221F /* Homolog */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1146D04A070F9FD1DB1BD217 /* Pods-TesteSantander.homolog.xcconfig */;
+			baseConfigurationReference = 2A8A123480F3DB7CADB258FC /* Pods-TesteSantander.homolog.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = SU94P4N9WH;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/TesteSantander/resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1031,49 +961,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Homolog;
-		};
-		C4F78A65257E6E2F0031221F /* Homolog */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SU94P4N9WH;
-				INFOPLIST_FILE = TesteSantanderTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.testesantander.ios.TesteSantanderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteSantander.app/TesteSantander";
-			};
-			name = Homolog;
-		};
-		C4F78A66257E6E2F0031221F /* Homolog */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LK7384CTQ5;
-				INFOPLIST_FILE = TesteSantanderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.testesantander.ios.TesteSantanderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TesteSantander;
 			};
 			name = Homolog;
 		};
@@ -1100,22 +987,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6981D15524AAC5B4001B93B2 /* Build configuration list for PBXNativeTarget "TesteSantanderTests" */ = {
+		9F033FC9292ED07D00B3EA47 /* Build configuration list for PBXNativeTarget "PokemonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6981D15624AAC5B4001B93B2 /* Debug */,
-				C4F78A65257E6E2F0031221F /* Homolog */,
-				6981D15724AAC5B4001B93B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6981D15824AAC5B4001B93B2 /* Build configuration list for PBXNativeTarget "TesteSantanderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6981D15924AAC5B4001B93B2 /* Debug */,
-				C4F78A66257E6E2F0031221F /* Homolog */,
-				6981D15A24AAC5B4001B93B2 /* Release */,
+				9F033FCA292ED07D00B3EA47 /* Debug */,
+				9F033FCB292ED07D00B3EA47 /* Homolog */,
+				9F033FCC292ED07D00B3EA47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -66,6 +66,16 @@
                ReferencedContainer = "container:TesteSantander.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9F033FC2292ED07D00B3EA47"
+               BuildableName = "PokemonTests.xctest"
+               BlueprintName = "PokemonTests"
+               ReferencedContainer = "container:TesteSantander.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

@@ -16,6 +16,8 @@ protocol ListPokemonPresenterInterface: AnyObject {
 protocol ListPokemonPresenterViewInterface: AnyObject {
     func fetchListPokemon(list: [Pokemon])
     func failure(msg: String)
+    func openItemDetail(index:Int)
+    func countList() -> Int
 }
 
 class ListPokemonPresenter: NSObject, ListPokemonPresenterInterface, ListPokemonInteractorOutput {

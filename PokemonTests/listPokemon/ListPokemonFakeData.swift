@@ -13,6 +13,9 @@ enum ListPokemonFakeData {
     static var list: [Pokemon] = []
     
     func loadListPokemon(){
+        
+        ListPokemonFakeData.list = []
+        
         ListPokemonFakeData.list.append(Pokemon(name: "bulbasaur", url: "https://pokeapi.co/api/v2/pokemon/1/"))
         
         ListPokemonFakeData.list.append(Pokemon(name: "ivysaur", url: "https://pokeapi.co/api/v2/pokemon/2/"))

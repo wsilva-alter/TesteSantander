@@ -53,7 +53,7 @@ class ListPokemonViewController: UIViewController {
 }
 
 extension ListPokemonViewController: ListPokemonPresenterViewInterface {
-    
+
     func fetchListPokemon(list: [Pokemon]) {
         self.hideLoading()
         self.listPokemon = list
@@ -66,6 +66,14 @@ extension ListPokemonViewController: ListPokemonPresenterViewInterface {
         self.alert(with: msg, titleFirstButton: "OK")
     }
     
+    func openItemDetail(index: Int) {
+        self.idSelect = index
+        performSegue(withIdentifier: "segueDetailPokemon", sender: nil)
+    }
+    
+    func countList() -> Int {
+        return self.listPokemon.count
+    }
 }
 
 extension ListPokemonViewController: UITableViewDelegate, UITableViewDataSource{
@@ -84,7 +92,9 @@ extension ListPokemonViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.idSelect = indexPath.row+1
-        performSegue(withIdentifier: "segueDetailPokemon", sender: nil)
+//        self.idSelect = indexPath.row+1
+//        performSegue(withIdentifier: "segueDetailPokemon", sender: nil)
+    
+        self.openItemDetail(index: indexPath.row+1)
     }
 }
